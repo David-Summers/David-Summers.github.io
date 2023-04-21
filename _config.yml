@@ -16,32 +16,32 @@
 
 ## => Site Settings
 ##############################
-text_skin: default # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
-highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
-url     : # the base hostname & protocol for your site e.g. https://www.someone.com
+text_skin: dark # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
+highlight_theme: tomorrow-night-bright # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
+url     : https://www.AzureRonin.com.au # the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl : # does not include hostname
-title   : Your Site Title
+title   : Azure Ronin
 description: > # this means to ignore newlines until "Language & timezone"
-  Your Site Description
+ Azure Ronin is a technical blog that focuses on all things Azure, Microsoft's cloud computing platform. With years of experience in the field, the author of this blog aims to provide real-world examples of how to succeed in the world of Azure. From beginner to advanced users, Azure Ronin offers a wide range of topics, including Azure architecture, infrastructure, security, automation, and more. Whether you are a developer, an IT professional, or a business owner, Azure Ronin provides valuable insights, tips, and best practices to help you leverage Azure's power and achieve your goals. Follow Azure Ronin to stay up-to-date with the latest Azure trends, learn new skills, and get inspired by success stories from the Azure community.
 
 
 ## => Language and Timezone
 ##############################
-lang: # the language of your site, default as "en"
-timezone: # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
+lang: enAU # the language of your site, default as "en"
+timezone: AUEST # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
 
 
 ## => Author and Social
 ##############################
 author:
-  type      : # "person" (default), "organization"
-  name      : Your Name
-  url       :
-  avatar    : # path or url of avatar image (square)
-  bio       : I am an amazing person.
-  email     :
+  type      : Human # "person" (default), "organization"
+  name      : David Summers
+  url       : https://www.AzureRonin.com.au
+  avatar    : https://avatars.githubusercontent.com/u/53208734?v=4 # path or url of avatar image (square)
+  bio       : Technical fellow and former Chef with a passion for technology.
+  email     : work_david@hotmail.com
   facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
-  twitter   : # "user_name" the last part of your profile url, e.g. https://twitter.com/user_name
+  twitter   : https://twitter.com/Xeeva_d3 # "user_name" the last part of your profile url, e.g. https://twitter.com/user_name
   weibo     : # "user_id"   the last part of your profile url, e.g. https://www.weibo.com/user_id/profile?...
   googleplus: # "user_id"   the last part of your profile url, e.g. https://plus.google.com/u/0/user_id
   telegram  : # "user_name" the last part of your profile url, e.g. https://t.me/user_name
@@ -49,13 +49,13 @@ author:
   zhihu     : # "user_name" the last part of your profile url, e.g. https://www.zhihu.com/people/user_name
   douban    : # "user_name" the last part of your profile url, e.g. https://www.douban.com/people/user_name
   linkedin  : # "user_name" the last part of your profile url, e.g. https://www.linkedin.com/in/user_name
-  github    : # "user_name" the last part of your profile url, e.g. https://github.com/user_name
+  github    : https://github.com/David-Summers # "user_name" the last part of your profile url, e.g. https://github.com/user_name
   npm       : # "user_name" the last part of your profile url, e.g. https://www.npmjs.com/~user_name
 
 
 ## => GitHub Repository (if the site is hosted by GitHub)
 ##############################
-repository: user_name/repo_name
+repository: David-Summers/David-Summers.github.io
 repository_tree: master
 
 
